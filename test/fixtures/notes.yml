@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+note_1:
+  id: 1
+  title: Title 1
+  description: Description 1
+
+note_2:
+  id: 2
+  title: Title 2
+  description: Description 2

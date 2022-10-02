@@ -1,0 +1,18 @@
+# команды в консоли для rubocop:
+# rubocop -a безопасно изменит оформление нашего кода, не затрагивая логику - кавычки и т.п.
+# rubocop -A изменения могут затронуть логику кода - использует иные методы
+
+require: rubocop-rails
+
+AllCops:
+  Exclude:
+    - Gemfile
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 30
